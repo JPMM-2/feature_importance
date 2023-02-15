@@ -17,7 +17,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 le = LabelEncoder()
-data = pd.read_excel('rnd_data.xlsx',sheet_name = 'Sheet3')
+data = pd.read_excel('data.xlsx',sheet_name = 'data')
 data.dropna(inplace=True)
 
 for col in data.columns:
