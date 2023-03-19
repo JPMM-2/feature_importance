@@ -22,7 +22,7 @@ dataset.keys()
 from matplotlib import pyplot as plt
 
 plt.gray()
-plt.matshow(dataset.data[4].reshape(8,8))
+plt.matshow(dataset.data[233].reshape(8,8))
 
 df = pd.DataFrame(dataset.data, columns = dataset.feature_names)
 
