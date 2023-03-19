@@ -26,7 +26,7 @@ X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
 
 
 X = data.values
-pca = PCA(n_components=2)
+pca = PCA(n_components=5)
 pca.fit(X)
 #PCA(n_components=1)
 print(pca.explained_variance_ratio_)
